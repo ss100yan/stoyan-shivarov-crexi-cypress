@@ -14,7 +14,9 @@ Design and implement an automated test suite for crexi.com testing the following
 * Search: Users can search for properties based on different criteria
 
 Use Cypress or Playwright.
+
 Ensure your tests are robust and can handle various edge cases.
+
 Apply the same principles you'd apply in real life regarding setup, teardown, scaling out, etc. If something can't be done because of the limited access to the environment, please leave the code comments on how you'd approach it if you had access. 
 
 Set up CI using GitHub Actions (or any other CI platform) to run your tests automatically on every push to the repository. Include the configuration file and instructions for setting up the CI environment.
@@ -22,9 +24,13 @@ Set up CI using GitHub Actions (or any other CI platform) to run your tests auto
 ## Submission
 
 Fork the provided GitHub repository and create a new branch for your submission named `firstname-lastname`
+
 Commit your code and CI configuration to the branch.
+
 Create a pull request (PR) with a clear description of your changes and instructions for running your tests.
+
 Ensure your PR includes detailed setup instructions and any necessary environment configurations.
+
 Ensure the CI runs successfully.
 
 ## Contact
