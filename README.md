@@ -1,7 +1,7 @@
-# SDET Coding Assignment
+# SDET Assignment
 
 ## Overview
-Welcome to the coding test assignment for the SDET role at Crexi. 
+Welcome to the test assignment for the SDET role at Crexi. 
 Your solution would showcase your technical expertise, problem-solving skills, and understanding of best practices in test automation.
 
 ## Task
