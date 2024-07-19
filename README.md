@@ -10,9 +10,8 @@ Design and implement an automated test suite for crexi.com testing the following
 
 * User Login: Users can register and log in with a username and password.
 * Profile Update: Users can update their profile picture 
-* Property Listings: Users can view a list of commercial properties after logging in.
 * Property Details: Users can click on a property to view its details.
-* Search: Users can search for properties based on different criteria
+* Search: Users can search for properties based on different criteria (pick one)
 
 Use Cypress or Playwright.
 
