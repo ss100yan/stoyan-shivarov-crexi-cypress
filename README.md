@@ -19,7 +19,10 @@ Ensure your tests are robust and can handle various edge cases.
 
 Apply the same principles you'd apply in real life regarding setup, teardown, scaling out, etc. If something can't be done because of the limited access to the environment, please leave the code comments on how you'd approach it if you had access. 
 
-Set up CI using GitHub Actions (or any other CI platform) to run your tests automatically on every push to the repository. Include the configuration file and instructions for setting up the CI environment.
+Set up CI using GitHub Actions (or any other CI platform) to run your tests automatically on every push to the repository. 
+As a part of CI run, aggregate the test report and upload it to http://uploadcare.com.
+
+Include the configuration file and instructions for setting up the CI environment. 
 
 ## Submission
 
