@@ -6,8 +6,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl: 'https://www.crexi.com',  // Optional: set a base URL for tests
-    specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}', // Ensures it looks for test specs in your e2e folder
+    supportFile: false,  // This disables the support file requirement
   },
   reporter: 'mochawesome',
   reporterOptions: {
