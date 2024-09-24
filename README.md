@@ -1,3 +1,7 @@
+## Report Download
+You can download the full Cypress Test Automation Report from [here](https://ucarecdn.com/145f83a5-0d00-44ca-a853-ea30a72183ba/stoyanshivarov_CypressTestAutomationReportforCrexiPlatform.docx).
+
+
 # Cypress Test Suite for Crexi
 
 This repository contains an automated test suite for the [Crexi](https://www.crexi.com/) platform, developed using **Cypress** and **GitHub Actions** for CI. The tests cover essential functionalities, including login, profile picture updates, property details, user registration, and property search.
