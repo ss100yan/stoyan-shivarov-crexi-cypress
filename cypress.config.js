@@ -1,14 +1,10 @@
-import { defineConfig } from 'cypress';
+module.exports = {
+  projectId: "tpywq4",
+  // ...rest of the Cypress project config
 
-export default defineConfig({
-  e2e: {
-    setupNodeEvents(on, config) {
-      // implement node event listeners here
-    },
-    reporter: 'mocha-junit-reporter',
-    reporterOptions: {
-      mochaFile: 'cypress/reports/junit/results-[hash].xml',
-      toConsole: true
-    },
-  },
-});
+
+
+  
+    
+
+}
