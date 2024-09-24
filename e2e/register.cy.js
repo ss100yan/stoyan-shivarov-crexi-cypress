@@ -15,22 +15,22 @@ describe('User Registration Test', () => {
     // First Name
     cy.get('input[formcontrolname="firstName"]')
       .should('be.visible')
-      .type('Stoyan', { delay: 100, force: true });
+      .type('Jhon', { delay: 100, force: true });
 
     // Last Name
     cy.get('input[formcontrolname="lastName"]')
       .should('be.visible')
-      .type('Shivarov', { delay: 100, force: true });
+      .type('Smith', { delay: 100, force: true });
 
     // Email
     cy.get('input[formcontrolname="email"]')
       .should('be.visible')
-      .type('ss100yantest10@gmail.com', { delay: 100, force: true });
+      .type('stoyantest33@gmail.com', { delay: 100, force: true });
 
     // Password
     cy.get('input[formcontrolname="password"]')
       .should('be.visible')
-      .type('crexiTest123!', { delay: 100, force: true });
+      .type('crexiTest321!', { delay: 100, force: true });
 
     // Industry Role (Handling dropdown)
     cy.get('div.cui-select-input').click({ force: true });
@@ -39,7 +39,7 @@ describe('User Registration Test', () => {
     // Phone Number
     cy.get('input[formcontrolname="phone"]')
       .should('be.visible')
-      .type('4243853333', { delay: 100, force: true });
+      .type('3054241234', { delay: 100, force: true });
 
     // Scroll the modal form down
     cy.get('div.mat-mdc-dialog-content').scrollTo('bottom', { ensureScrollable: true });

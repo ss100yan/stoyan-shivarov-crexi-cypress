@@ -21,7 +21,12 @@ describe('Property Details Test', () => {
 
     
 
-cy.get('.cui-card-cover-link').first().invoke('removeAttr', 'target',{ force: true }).click({ force: true });
+    cy.get('.cui-card-cover-link', { timeout: 10000 }) // 10 seconds timeout
+    .first()
+    .invoke('removeAttr', 'target', { force: true })
+    .click({ force: true });
+  
+  
 
 // Verify that the property details page is displayed
 cy.url().should('include', '/properties/'); 
